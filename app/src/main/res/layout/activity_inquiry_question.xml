@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/questionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q1.livelihood looking for?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/OneRk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 RK"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/OneBhk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Bhk"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/TwoBhk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 Bhk"
+                    android:textSize="16sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/TwoBhkPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 Bhk+"
+                    android:textSize="16sp"/>
+                <RadioButton
+                    android:id="@+id/Pg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pg"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/questionTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2. Comfertable to have number of partners?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/One"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Two"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Three"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/More"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3. Age group of the person should be?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/Same"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Same"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Younger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Younger"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Older"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Older"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/OlderButNotSoOlder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Older but not so older"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q4. Concern about cleanliness of the room ?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/CleanEveryDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Claen every day"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/CleanItDayLatter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean it day latter"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/ShouldWeItWheneverNeeded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Should we it whenever needed"
+                    android:textSize="16sp"/>
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q5. Kind of food yo prefer to eat?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/Veg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/NonVeg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nonveg"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Vegan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vegan"
+                    android:textSize="16sp"/>
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q6. Drinking and smoking habits?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/Dailysmoker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DailySmoker but dont drink"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/DailyDrinker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DailyDrinker but dont smoke"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/DailyDrinksAndSmoker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DailyDrinksAndSmoker"
+                    android:textSize="16sp"/>
+                <RadioButton
+                    android:id="@+id/OtherHabbits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OtherHabbits"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q7. How Long you are planning to stay?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/SixMonths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Six Months"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/oneYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One Year"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/TwoYears"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tweo Years"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/More"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q8. What budget you are looking for?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/FourkToEightK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4k to 8k"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/EightkToTwelveK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8k to 12k"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/TwelvekToSixteenK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12k to 16k"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/SixteenKToTwentyK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16k to 20k"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q9.Do you need privicy?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/Yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Sometimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sometimes"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/DosentMatter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dosent Matter"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/questionTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q10.City You are looking for?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/answerRadioGroupTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/Mumbai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mumbai"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Pune"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pune"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/Nagpur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nagpur"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/OtherCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OtherCity"
+                    android:textSize="16sp"/>
+
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
